@@ -17,7 +17,6 @@ while True:
 
         #smile
         cv2.ellipse(frame, (x+int(.5*w),y+int(.65*h)), (int(w/4), int(h/5)), 0, 0, 180, (0,0,255), int(.5*10))
-
         #eyes
         cv2.circle(frame, (int(x+.35*w), int(y+.4*h)), 20, (200, 106, 30), 10)
         cv2.circle(frame, (int(x+.65*w), int(y+.4*h)), 20, (129, 102, 39), 10)
